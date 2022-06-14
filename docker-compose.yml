@@ -1,0 +1,9 @@
+version: "3.9"
+services:
+  python:
+    build: 
+      context: .
+      args:
+        INCOMING_MESSAGE_SET_NAME: oldalarm
+        OUTGOING_MESSAGE_SET_NAME: newalarm
+        TRANSFORM_NAME: OldToNewTransform
