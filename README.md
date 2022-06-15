@@ -211,8 +211,11 @@ Next we're going to utilize Docker and some wrapper code to interact with the ge
 
 **Clone This Repo**
 
-1. Clone (or download) this repository to your computer
-2. Within your cloned repo, create a new folder called `code-gen` 
+1. Clone (or download) this repository to your computer. This will create a folder called `homemonitor`
+    ```
+    git clone https://github.com/TangramFlex/homemonitor.git
+    ```
+2. Open the `homemonitor` folder, and create a new folder called `code-gen` 
 3. Move the `out` folder (that Tangram Maker generated) into the `code-gen` folder. Your files should look simlar to this:
     ```
     ├── code-gen
